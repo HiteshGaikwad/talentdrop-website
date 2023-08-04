@@ -1,0 +1,25 @@
+
+.terms-body, .privacy-body {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 50px 400px;
+
+}
+.terms-link, .privacy-link {
+    text-decoration: none;
+    color:blueviolet;
+    font-weight: 500;
+}
+h2 {
+    margin: 0 ;
+}
+h3 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+h4{
+    margin-top: 5px;
+    margin-bottom: 0;
+}

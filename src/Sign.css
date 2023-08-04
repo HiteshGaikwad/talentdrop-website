@@ -1,0 +1,135 @@
+.signin-page {
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+}
+.signin-left {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236,235,241);
+}
+.website-logo {
+    width: 200px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 90px;
+}
+.signin-left h2 {
+    font-size: 46px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-left: 90px;
+    color:rgb(53,8,76);
+}
+.signin-left p{
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 18px;
+    margin-left: 90px;
+}
+.insta-image {
+    margin-left: 51px;
+    margin-top: 45px;
+    width: 710px;
+    height: 500px;
+    /* border: 1px solid red; */
+}
+.signin-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    /* border: 1px solid red; */
+}
+.btn {
+    display: flex;
+    /* gap: 20px; */
+}
+.btn button {
+    border: none;
+    background-color: transparent;
+    border-bottom: 0.5px solid rgb(179, 175, 175);
+    padding: 12px 0;
+    font-size: 16px;
+    width: 160px;
+}
+.btn button:focus {
+    border-bottom: 2px solid blueviolet;
+}
+.btn button:active{
+    background-color: rgb(246, 240, 240);
+}
+.google-signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 280px;
+    height: 45px;
+    margin: 40px 0 10px 0;
+    background-color: transparent;
+    border: 0.1px solid rgb(192, 186, 186);
+    border-radius: 10px ;
+    font-size: 16px;
+    font-weight: 500;
+}
+.google-signin img{
+    width: 20px;
+    height: 20px;
+}
+.or {
+    margin: 20px;
+    font-size: 14px;
+    color: rgb(186, 198, 208);
+}
+.email {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.email input {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 2px 15px ;
+    border: 1px solid rgb(180, 176, 176);
+}
+.label-forget {
+    display: flex;
+    justify-content: space-between;
+}
+.forget {
+    text-decoration: none;
+    color: rgb(29,134,230);
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+}
+.login-btn {
+    width: 90px;
+    height: 48px;
+    margin: 40px 0 8px 0;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(182,10,249);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.login-btn:hover {
+    background-color: rgb(194, 64, 245);
+}
+.new-acc {
+    font-size: 14px;
+}
+.Signin-nav {
+    text-decoration: none;
+    color:rgb(29,134,230) ;
+    font-weight: 500;
+    font-size: 14px;
+}
+.Signin-nav:hover {
+    text-decoration: underline;
+}

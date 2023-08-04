@@ -1,0 +1,104 @@
+
+.about-top {
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53,8,76);
+    color: white;
+    padding: 0 26%;
+    color: rgb(255,202,202);
+} 
+.about-top h1 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding-right: 130px;
+    padding-bottom: 0;
+    margin: 0;
+}
+.about-top p{
+    padding-bottom: 50px;
+    font-size: 20px;
+    letter-spacing: 0.001em;
+    word-spacing: 0.001em;
+    line-height: 1.6;
+}
+.about-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: 40px 400px;
+    color: rgb(53,8,76);
+}
+.about-bottom h2 {
+    font-size: 26px;
+    margin-bottom: 0;
+}
+.about-bottom p{
+    margin-bottom: -10px;
+}
+.linked-in {
+margin-top: 50px;
+padding-top: 20px;
+text-decoration: none;
+}
+.linked-in img {
+    width: 200px;
+    height: 200px;
+}
+.linked-in-profile {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-top: -10px;
+    text-decoration: none;
+    text-transform:none ;
+    margin-bottom: 0;
+    /* border: 1px solid red; */
+}
+
+.linked-in-profile:visited {
+    color: inherit;
+}
+.linked-in-profile span{
+    font-size: 20px;
+    padding-top: 7px;
+    font-weight: 750;
+    color: rgb(97,82,99);
+}
+
+.position {
+    margin-top: 0px;
+}
+.intro {
+    margin: 25px 0;
+}
+.linked-in-profile span:hover {
+    color: rgb(174, 58, 232);
+}
+.customers{
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0;
+}
+.customers h3 {
+    font-size: 26px;
+    color:rgb(53,8,76);
+    /* border: 1px solid blue; */
+}
+.customers-logo {
+    display: flex;
+    gap: 55px;
+    margin-top: -8px;
+    /* border: 1px solid red; */
+
+}
+.customers-logo img {
+    width: 75px;
+    height: 75px;
+    filter: grayscale(10)
+}
