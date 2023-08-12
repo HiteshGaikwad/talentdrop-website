@@ -18,6 +18,12 @@
     font-size: 17px;
     padding-left: 20px;
 }
+.footer-left button {
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 17px;
+}
 .footer-about {
     text-decoration: none;
     color: #A8A3A9;
